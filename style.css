@@ -1,0 +1,86 @@
+/*body*/
+body
+{
+    background: linear-gradient(rgb(255, 255, 255) , rgb(233, 194, 255)) no-repeat fixed;
+}
+.dark
+{
+    background: linear-gradient(rgb(51, 21, 62) , rgb(134, 85, 195)) no-repeat fixed;
+    color:  aliceblue;
+    position: relative;
+}
+.light
+{
+    background: linear-gradient(rgb(255, 255, 255) , rgb(233, 194, 255)) no-repeat fixed;
+    color: rgb(60, 80, 99);
+    position: relative;
+}
+/*Header*/
+.header{
+    display: flex;
+    justify-content: space-between;   
+}
+h1
+{
+    padding-left: 5rem;
+    text-align:center;
+    
+}
+img
+{
+    width: 40%;
+}
+.header button
+{
+    background: none;
+    border: 0px;
+    float: right;
+}
+/*Calculator body*/
+.calculator button
+{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 100%;
+    margin: 2%;
+    border: none;
+}
+.calculator button:hover
+{
+    background-color: rgb(217, 179, 253);
+}
+.calculator input
+{
+    width: 370px;
+    height: 40px;
+    font-size: 20px;
+    text-align: right;
+    border-radius: 5%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+.calculator #AC
+{
+    background-color: rgb(137, 255, 27);
+}
+.calculator #CE
+{
+    background-color: rgb(255, 63, 162);
+}
+.calculator #eq
+{
+    background-color: rgb(86, 114, 255);
+}
+.calculator table
+{
+    background:  rgb(116, 155, 189);
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    border: 8px rgb(45, 78, 106);
+    border-radius: 8%;
+}
+
+
